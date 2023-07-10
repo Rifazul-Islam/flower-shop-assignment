@@ -54,7 +54,7 @@ header {
 
 .flower-feature-content {
 
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .feature-box-container{
@@ -104,4 +104,33 @@ color:#272727;
 .flower-picture {
     width: 200px;
     height: 250px;
+}
+
+
+/* Main in flower Delivery section style related */
+
+.flower-delivery-container{
+    width: 70%;
+    height: 250px;
+    margin: auto;
+    border-radius: 7px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.picture-sizing{
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+}
+
+.title{
+
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgba(39, 39, 39, 0.80);
 }
