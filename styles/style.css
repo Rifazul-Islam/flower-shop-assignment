@@ -245,8 +245,6 @@ input {
 }
 
 
-
-
 /* Main in Unique section */
 
 .register-container{
@@ -276,6 +274,7 @@ input {
     padding: 20px 0px;
 }
 
+
 .register-title{
     text-align: center;
     padding: 30px 0px;
@@ -293,7 +292,10 @@ input {
     border: 0px;
 }
 
-
+.btn-espasal:hover{
+  background-color: red;
+  cursor: pointer;
+}
 
 
 /* Main in flower Footer section style related */
