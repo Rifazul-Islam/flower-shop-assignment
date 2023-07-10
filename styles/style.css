@@ -211,9 +211,37 @@ header {
     gap: 15px;
 }
 
+
+
+
+/* Main in flower Subscribe section style related */
+
 .subscribe-section-container{
- 
 background-image:url( '../Flower Asset/Rectangle\ 9.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size:80%;
+text-align: center;
+padding: 160px;
 
+}
 
+.subscribe-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #272727;
+}
+
+.subscribe-descripe{
+   font-size: 15px;
+   margin:15px 0px;
+   color: rgba(39, 39, 39, 0.60);
+}
+
+input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    padding-left: 15px;
+    margin-right: 5px;
 }
