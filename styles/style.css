@@ -203,45 +203,122 @@ header {
     object-fit: cover;
 }
 
-.picture-container{
+.picture-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     gap: 15px;
 }
 
 
-
-
 /* Main in flower Subscribe section style related */
 
-.subscribe-section-container{
-background-image:url( '../Flower Asset/Rectangle\ 9.png');
-background-repeat: no-repeat;
-background-position: center;
-background-size:80%;
-text-align: center;
-padding: 160px;
+.subscribe-section-container {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    text-align: center;
+    padding: 160px;
 
 }
 
-.subscribe-title{
+.subscribe-title {
     font-size: 30px;
     font-weight: bold;
     color: #272727;
 }
 
-.subscribe-descripe{
-   font-size: 15px;
-   margin:15px 0px;
-   color: rgba(39, 39, 39, 0.60);
+.subscribe-descripe {
+    font-size: 15px;
+    margin: 15px 0px;
+    color: rgba(39, 39, 39, 0.60);
 }
 
-input{
+input {
     width: 450px;
     height: 40px;
     border: none;
     padding-left: 15px;
     margin-right: 5px;
 }
+
+
+
+
+/* Main in Unique section */
+
+.register-container{
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 500px;
+    margin-bottom: 70px;
+}
+
+
+.register-content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px ;
+
+}
+
+.right-site,input{
+  width: 350px;
+  margin: 10px 0px;
+
+}
+
+.btn{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.register-title{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 40px;
+    color: #272727;;
+}
+
+.btn-espasal{
+
+    padding: 13px 30px;
+    border-radius: 5px;
+    text-align: center;
+    background: #E55473;
+    color: #fff;
+    border: 0px;
+}
+
+
+
+
+/* Main in flower Footer section style related */
+
+.footer-container {
+    background-color: #272727;
+    height: 300px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+.footer-description{
+    color:#fff;
+    padding:20px 0px;
+}
+
+.footer-last-item{
+    color:#fff;
+    padding-top: 10px;
+}
+
