@@ -9,19 +9,16 @@
 header {
     background-color: rgba(229, 84, 115, 0.10);
     height: 100vh;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .banner-container {
-
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 80px;
     padding: 50px 50px 0px 50px;
-    
 }
-
 
 .banner-title {
     font-size: 55px;
@@ -43,12 +40,68 @@ header {
     object-fit: cover;
 }
 
-.btn-primary{
- padding: 15px 45px;
- border-radius: 5px;
- text-align: center;
- background:#E55473;
- color: #fff;
- border: 0px;
- 
+.btn-primary {
+    padding: 15px 45px;
+    border-radius: 5px;
+    text-align: center;
+    background: #E55473;
+    color: #fff;
+    border: 0px;
+}
+
+
+/* Main in flower feature section style related */
+
+.flower-feature-content {
+
+    margin-bottom: 100px;
+}
+
+.feature-box-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 25px;
+}
+
+.feature-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #272727;
+}
+
+.feature-description {
+    padding: 20px 70px 10px 70px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
+    width: 40%;
+}
+
+
+.box {
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 50px 20px 0px 20px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+.alignment{
+text-decoration: underline;
+text-align: center;
+font-weight: bold;
+color:#272727;
+ margin-top: 10px;
+ font-size: 18px;
+
+}
+
+.flower-picture {
+    width: 200px;
+    height: 250px;
 }
