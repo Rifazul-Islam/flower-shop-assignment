@@ -134,3 +134,43 @@ color:#272727;
     font-size: 17px;
     color: rgba(39, 39, 39, 0.80);
 }
+
+/* Main in flower Delivery section style related */
+
+.hot-deal-container{
+
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 100px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.hot-deal-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: bold;
+     
+}
+
+.primary{
+    color:#E55473;
+}
+
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    padding: 25px 0px;
+    font-size: 15px;
+    width: 50%; 
+    margin: auto;
+}
+
+.flower-photos{
+    width: 200px;
+    height: 250px;
+    margin-right: 200px;
+
+}
